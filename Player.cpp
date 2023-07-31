@@ -8,5 +8,5 @@ char Player::makeMove()
 
 std::string Player::getName()
 {
-    return string name;
+    return std::string name;
 }

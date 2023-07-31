@@ -8,6 +8,6 @@ class Player
 {
 public:
     virtual char makeMove() = 0;   // Pure virtual function
-    virtual std::string getName() = 0; // Pure virtual function
+    virtual string getName() = 0; // Pure virtual function
 };
 #endif
