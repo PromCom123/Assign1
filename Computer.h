@@ -5,7 +5,7 @@
 
 class Computer : public Player {
     public:
-     std::string getName();
-     char makeMove();
+    std::string getName();
+    char makeMove();
 };
 #endif

@@ -4,7 +4,10 @@ using namespace std;
 
 //Referee class
 
-    Player * Referee::refGame(Player *player1, Player *player2)
+    Referee::Referee(){
+        
+    };
+    Player * Referee::refGame(Player * player1, Player * player2)
     {
         char computerMove = player1->makeMove();
         char humanMove = player2->makeMove();
