@@ -3,10 +3,10 @@ using namespace std;
 
 char Player::makeMove()
 {
-    return char move;
+    return move;
 }
 
 std::string Player::getName()
 {
-    return std::string name;
+    return name;
 }

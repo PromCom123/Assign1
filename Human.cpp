@@ -14,7 +14,7 @@ using namespace std;
     {
         cout << "Enter move: ";
         cin >> move;
-        
+        return move;
     };
 
     string Human::getName() 
