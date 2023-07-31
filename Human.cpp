@@ -1,6 +1,4 @@
 #include "Human.h"
-
-
 using namespace std;
 
     char Human::makeMove() 
@@ -8,7 +6,7 @@ using namespace std;
         char move;
         cout << "Enter move: ";
         cin >> move;
-        while(move != "R" ||"S" ||"P"){
+        while(move != 'R' ||'S' ||'P'){
         cout<<"Enter move: "
         cin>> move;
         }

@@ -6,12 +6,12 @@ using namespace std;
 
 char Computer::makeMove() 
     {
-        char compMove= "R";
+        char compMove= 'R';
         return compMove;    
     };
     
 
-    virtual string Computer::getName()
+    string Computer::getName()
     {
         return "Computer";
     };
