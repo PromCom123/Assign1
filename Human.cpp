@@ -7,16 +7,16 @@ using namespace std;
         cout << "Enter move: ";
         cin >> move;
         while(move != 'R' ||'S' ||'P'){
-        cout<<"Enter move: "
+        cout<<"Enter move: ";
         cin>> move;
         }
         return move;
     };
 
-    string Human::getName() const 
+    string Human::getName() 
     {
         string name;
-        cout<< "Enter name: "
+        cout<< "Enter name: ";
         cin>> name;
         if(name==""){
             return "Human";
