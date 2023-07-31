@@ -6,7 +6,7 @@ using namespace std;
         char move;
         cout << "Enter move: ";
         cin >> move;
-        while(move != 'R' ||'S' ||'P'){
+        while(move != 'R' && move != 'S' && move !='P'){
         cout<<"Enter move: ";
         cin>> move;
         }
