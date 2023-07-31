@@ -1,6 +1,10 @@
 #include "Human.h"
 using namespace std;
 
+    Human::Human(){
+        string humanName;
+        humanName= "Human";
+    }
     char Human::makeMove() 
     {
         char move;
